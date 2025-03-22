@@ -33,3 +33,25 @@ for (let i = 0; i < salad.length; i++) {
 
 
 // part 1 complete
+
+
+// destructuring on an array 
+
+const [a, b, c, d] = [1, 2, 3, 'four']
+const x = [1, 2, 3, 4, ['apple', 'banana', 'carrot']]
+
+const [p, q, ...rest] = x;
+// here rest variable return an array that contain rest of elements of the array.
+
+const [one, two, three, four, [m, n , o]] = x
+
+// console.log(n)  banana
+
+// const [a, , c] = [1, 2, 3] we can skip an element of an array through that way.
+
+const array = [1, 2, 3]
+array[5] = 5;
+console.log(array)
+
+array.join(',') //it return a string 1,2,3,
+// [].join() always return an empty string
