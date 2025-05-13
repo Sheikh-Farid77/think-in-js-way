@@ -53,7 +53,7 @@ class Person{
     }
 
     play(){
-        console.log('person is playing')
+    console.log(`${this.name} is playing`)
     }
     sleep(){
         console.log('person is playing')
@@ -63,3 +63,5 @@ class Person{
 const sakib = new Person('sakib', 45);
 
 console.log(sakib)
+
+sakib.play()
