@@ -10,12 +10,12 @@
 
 // console.log(getResult())
 
-//  (async () => {
-//     const res = await fetch("https://fakestoreapi.in/api/products?limit=20") 
-//     const result = await res.json();
-//     result.products.forEach(element => {
-//         console.log(element)
-//     });
-//  }) ();
+ (async () => {
+    const res = await fetch("https://fakestoreapi.in/api/products?limit=20") 
+    const result = await res.json();
+    result.products.forEach(element => {
+        console.log(element)
+    });
+ }) ();
 
 
