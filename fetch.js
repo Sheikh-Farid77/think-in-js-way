@@ -1,3 +1,5 @@
+// get method
+
 async function fetchPost() {
     const API = 'https://jsonplaceholder.typicode.com/posts';
 
